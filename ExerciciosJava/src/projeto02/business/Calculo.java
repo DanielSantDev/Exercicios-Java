@@ -1,6 +1,6 @@
 package projeto02.business;
 
-public abstract class Calculo {
+public abstract class Calculo implements ICalculo{
 
     protected float valor1, valor2, resultado;
 
